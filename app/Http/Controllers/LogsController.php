@@ -12,7 +12,7 @@ class LogsController
     }
     public function store(Request $request)
     {
-        if (!is_null($i)){
+
             return response()
                  ->json(Logs::create(['id'=>$request->id,
                      'data_hora'=>$request->data_hora,
@@ -20,12 +20,10 @@ class LogsController
                      'aplicacao'=>$request->aplicacao,
                      'tipo'=>$request->tipo,
                      'mensagem'=>$request->mensagem]),201
-                      $i++;
+                 );}
 
-                );}
-
-    }
 }
+
 
 
 

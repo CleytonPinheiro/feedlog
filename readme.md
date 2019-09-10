@@ -19,3 +19,6 @@ If you discover a security vulnerability within Lumen, please send an e-mail to 
 ## License
 
 The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Preparando o ambiente para execução do código:
+
+    As rotas apesar de não serem muitas, foi implantado um grupo a eles, portanto usar o http://localhost:8000/api/log no Postman e no servidor PHP,  (php -S  localhost:8000 -t public, pois é o diretório do index.
